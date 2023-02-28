@@ -1,4 +1,4 @@
-self.addEventListener("install", function (event) {
+/*self.addEventListener("install", function (event) {
     event.waitUntil(preLoad());
     });
 
@@ -6,7 +6,7 @@ self.addEventListener("install", function (event) {
         event.waitUntil(self.registration?.navigationPreload.enable());
       });
 
-      
+
     self.addEventListener("fetch", function (event) {
     event.respondWith(checkResponse(event.request).catch(function () {
     console.log("Fetch from cache successful!")
@@ -78,4 +78,4 @@ return matching;
 }
 });
 });
-};
+};*/
