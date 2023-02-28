@@ -1,4 +1,4 @@
-const registerServiceWorker = async () => {
+/*const registerServiceWorker = async () => {
     if ("serviceWorker" in navigator) {
       try {
         const registration = await navigator.serviceWorker.register("/sw.js", {
@@ -20,4 +20,4 @@ const registerServiceWorker = async () => {
   // …
   
   registerServiceWorker();
-  
+  */
